@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -50,6 +51,8 @@ export default function Home() {
             ></iframe>
           </div>
         </section>
+		{/* Your existing homepage content */}
+		<Footer />
       </main>
     </>
   );
